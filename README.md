@@ -1,5 +1,18 @@
+# Page Replica Now Available as a Web Service!
 
-# Page Replica
+We are excited to announce that Page Replica is now available as a web service! No installation is required—simply visit [page-replica.com](https://page-replica.com) and start using it right away.
+
+### Pricing
+Page Replica is free to use for up to 1000 requests per month.
+
+### Need Assistance?
+If you have any questions or need support, we're here to help! Join our [GitHub Discussion](https://github.com/html5-ninja/page-replica/discussions/3) to get in touch with us.
+
+Thank you for choosing Page Replica. We look forward to providing you with the best possible service.
+
+---
+
+# Page Replica free tool
 
 "Page Replica" is a versatile web scraping and caching tool built with Node.js, Express, and Puppeteer. It helps prerender web app (React, Angular, Vue,...) pages, which can be served via Nginx for SEO or other purposes.
 
