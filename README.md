@@ -39,16 +39,20 @@ Additionally, it features an Nginx configuration that optimally handles user and
    ```
 
 3. **Settings:**
-- index.js 
-   ```bash
-   const CONFIG = {
-   baseUrl: "https://example.com",
-   removeJS: true,
-   addBaseURL: true,
-   cacheFolder: "path_to_cache_folder",
-   }
-   ```
-- app.js : set the port for your API
+You can now configure Page Replica using environment variables (recommended) or by editing `index.js` directly. The following environment variables are supported:
+
+- `BASE_URL` — The base URL for absolute links (default: `https://example.com`)
+- `REMOVE_JS` — Set to `true` or `false` to remove JavaScript from output (default: `true`)
+- `ADD_BASE_URL` — Set to `true` or `false` to add a `<base>` tag (default: `true`)
+- `CACHE_FOLDER` — Path to the cache folder (default: `/tmp/page-replica`)
+
+Example usage with environment variables:
+
+```bash
+BASE_URL="https://example.com" REMOVE_JS=false ADD_BASE_URL=true CACHE_FOLDER="/tmp/page-replica" npm start
+```
+
+Alternatively, you can still edit the `CONFIG` object in `index.js` for hardcoded values.
 
 4. **Start the API:**
 

@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "puppeteer": "^21.6.1",
+    "puppeteer": "^24.18.0",
     "sitemapper": "^3.2.8"
   }
 }

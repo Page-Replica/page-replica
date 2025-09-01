@@ -16,10 +16,10 @@ const path = require("path");
  * @type {Config}
  */
 const CONFIG = {
-  baseUrl: "https://example.com",
-  removeJS: true,
-  addBaseURL: true,
-  cacheFolder: "path_to_cache_folder",
+  baseUrl: process.env.BASE_URL || "https://example.com",
+  removeJS: process.env.REMOVE_JS ? process.env.REMOVE_JS === "true" : true,
+  addBaseURL: process.env.ADD_BASE_URL ? process.env.ADD_BASE_URL === "true" : true,
+  cacheFolder: process.env.CACHE_FOLDER || "/tmp/page-replica",
 };
 
 /**
@@ -46,7 +46,7 @@ const scrap = async (pathUrl) => {
   try {
     // Launch Puppeteer browser
     const browser = await puppeteer.launch({
-      headless: "new",
+      headless: true,
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
     });
     // Create a new page in the browser
