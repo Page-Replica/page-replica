@@ -9,8 +9,43 @@ If you want to avoid the hassle of setting up your own pre-rendering tool, check
 - Unlimited sites
 - API access
 
+👉 **Try it live:**  
+https://page-replica.com/pre-render/live-demo
+
+
+---
+
+## 🔍 New: Structured Web Extraction for RAG & AI Pipelines
+
+Page Replica is no longer just about prerendering pages for SEO.
+
+The **web app version** now lets you turn messy web pages into **clean, structured data** that works perfectly for **RAG (Retrieval-Augmented Generation)**, AI agents, and data pipelines.
+
+### What you can extract
+- **Structured JSON** (semantic sections, headings, content blocks)
+- **Markdown (MD)** for LLM-friendly ingestion
+- **Clean HTML** with low noise (ads, scripts, navigation removed)
+
+This works especially well for:
+- JavaScript-heavy sites (React, Vue, Angular…)
+- Pages that break traditional scrapers
+- AI indexing, embeddings, and search pipelines
+
+👉 **Try it live:**  
+https://page-replica.com/structured/live-demo
+
+### Typical use cases
+- Build RAG datasets from public websites
+- Feed clean content into vector databases
+- Power AI agents with reliable page context
+- Replace brittle scrapers with rendered, normalized output
+
+---
+
 ### Need Assistance?
 If you have any questions or need support, we're here to help! Join our [GitHub Discussion](https://github.com/html5-ninja/page-replica/discussions/3) to get in touch with us.
+
+
 
 ---
 
