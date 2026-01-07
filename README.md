@@ -1,14 +1,16 @@
-# Page Replica Now Available as a Web Service!
+<img width="321" alt="Screenshot 2024-06-30 at 21 50 13" src="https://github.com/html5-ninja/page-replica/assets/2590579/d606e994-b6ac-4235-9ff6-5ec7a76fa095">
 
-We are excited to announce that Page Replica is now available as a web service! No installation is required—simply visit [page-replica.com](https://page-replica.com) and start using it right away.
+# Good news everyone! Page Replica is Available as a Web App!
 
-### Pricing
-Page Replica is free to use for up to 1000 requests per month.
+If you want to avoid the hassle of setting up your own pre-rendering tool, check out [Page Replica](https://page-replica.com). Manage and re-render your pages effortlessly!
+
+### Key Feature
+- Page Replica is free to use for up to 5,000 requests per month.
+- Unlimited sites
+- API access
 
 ### Need Assistance?
 If you have any questions or need support, we're here to help! Join our [GitHub Discussion](https://github.com/html5-ninja/page-replica/discussions/3) to get in touch with us.
-
-Thank you for choosing Page Replica. We look forward to providing you with the best possible service.
 
 ---
 
